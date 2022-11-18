@@ -3,8 +3,25 @@
     box-sizing: border-box;
     margin: 0;
 }
-
+main{
+    background-image: url("https://focustech.it/wp-content/uploads/2021/03/blocco-studentesco-amazon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 1.5rem;
+    color: #222e3e;
+}
 div{
+    padding-top: 2rem;
     text-align: center;
-    line-height: 2rem;
+    line-height: 3rem;
+}
+button{
+    border: none;
+    padding: 1rem 2rem;
+    background-color: orange;
+    border-radius: 5rem;
+    font-size: 2rem;
+    color: white;
 }
